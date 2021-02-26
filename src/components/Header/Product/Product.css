@@ -1,0 +1,18 @@
+.single-product{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    margin: 0px 10px 5px 0px;
+    padding-bottom: 5px;
+}
+.product-name{
+    color: blue;
+    font-family: 400px;
+}
+.cart-button{
+    background-color: goldenrod;
+    width: 160px;
+    height: 30px;
+    border: 1px solid lightsalmon;
+    border-radius: 5px;
+    cursor: pointer;
+}
