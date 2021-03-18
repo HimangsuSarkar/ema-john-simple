@@ -19,9 +19,9 @@ const Cart = (props) => {
     if (total > 35) {
         shipping = 0;
     } else if (total > 15) {
-        shipping = 4.90
+        shipping = 4.99;
     } else if (total > 0) {
-        shipping = 12.90
+        shipping = 12.90;
     }
     const tax = Math.round(total / 10);
 
